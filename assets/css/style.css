@@ -6282,17 +6282,13 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6; } }
 
-[class^="col"] {
-  padding-top: .75rem;
-  padding-bottom: .75rem;
-  background-color: rgba(86, 61, 124, 0.15);
-  border: 1px solid rgba(86, 61, 124, 0.15);
-  text-align: center; }
-
-.user-level .row {
-  height: 100vh;
-  background: #20c997; }
-
 .user-level {
-  background-color: rgba(255, 0, 0, 0.1);
-  height: 100vh; }
+  background: #343a40;
+  color: #f8f9fa;
+  text-align: center; }
+  .user-level .row {
+    height: 100vh; }
+  .user-level__login-link:focus {
+    box-shadow: none;
+    background-color: #0069d9;
+    border-color: #0062cc; }
