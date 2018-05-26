@@ -1,0 +1,24 @@
+{
+  "name": "helpone-helpdesk",
+  "version": "1.0.0",
+  "description": "HelpOne - Sistema de HelpDesk | Projeto Integrado Multidisciplinar III",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatheusWebDev/helpone-helpdesk.git"
+  },
+  "author": "MatheusWebDev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MatheusWebDev/helpone-helpdesk/issues"
+  },
+  "homepage": "https://github.com/MatheusWebDev/helpone-helpdesk#readme",
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.3"
+  }
+}
