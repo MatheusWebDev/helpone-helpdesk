@@ -9,13 +9,15 @@
     <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">-->
     <!-- My CSS -->
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/solid.css" integrity="sha384-Rw5qeepMFvJVEZdSo1nDQD5B6wX0m7c5Z/pLNvjkB14W6Yki1hKbSEQaX9ffUbWe" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/fontawesome.css" integrity="sha384-GVa9GOgVQgOk+TNYXu7S/InPTfSDTtBalSgkgqQ7sCik56N9ztlkoTr2f/T44oKV" crossorigin="anonymous">
 
     <title>HelpOne - Sistema de HelpDesk | Projeto Integrado Multidisciplinar III</title>
   </head>
   <body>
       
     <header class="header">
-      <nav class="navbar fixed-top navbar-expand-sm navbar-light bg-light">
+      <nav class="navbar navbar-expand-sm navbar-light bg-light">
         <div class="container">
           <a class="nav-link d-none d-md-block" href="index.html">Retornar ao SiCaPEx</a>
           <a class="navbar-brand mr-0" href="home-operador.html">
@@ -26,7 +28,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
         
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -45,8 +47,234 @@
         </div>
       </nav>
     </header>
-
     
+    <main>
+      <section class="section-hero bg-secondary">
+        <div class="container">
+          <div class="row align-items-center justify-content-center">
+            <div class="col-3">
+              <button type="button" class="btn btn-lg btn-block btn-info py-4">
+                <span class="d-block mb-1"><i class="fas fa-3x fa-list"></i></span>
+                Consultar chamados
+                <small class="d-block">Some text here of button</small>
+              </button>
+            </div>
+            <div class="col-3">
+              <button type="button" class="btn btn-lg btn-block btn-info py-4">
+                <span class="d-block mb-1"><i class="fas fa-3x fa-file-alt"></i></span>
+                Gerenciar Artigos
+                <small class="d-block">Some text here of button</small>
+              </button>
+            </div>
+            <div class="col-3">
+              <button type="button" class="btn btn-lg btn-block btn-info py-4">
+                <span class="d-block mb-1"><i class="fas fa-3x fa-users"></i></span>
+                Gerenciar Equipe
+                <small class="d-block">Some text here of button</small>
+              </button>
+            </div>
+            <div class="col-3">
+              <button type="button" class="btn btn-lg btn-block btn-info py-4">
+                <span class="d-block mb-1"><i class="fas fa-3x fa-chart-bar"></i></span>
+                Exibir Relatórios
+                <small class="d-block">Some text here of button</small>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section class="content">
+        <div class="container">
+          <div class="row py-6">
+            <div class="col-5">
+              <h2 class="h3 mb-4">Soluções Frequentes</h2>
+              <div class="row mt-3">
+                <div class="col-6 px-2">
+                  <a href="#" class="btn btn-light no-white-space text-left p-3 border" role="button">
+                    Some text in heto with some problem?
+                  </a>
+                </div>
+                <div class="col-6 px-2">
+                  <a href="#" class="btn btn-light no-white-space text-left p-3 border" role="button">
+                    Some text in heto with some problem?
+                  </a>
+                </div>
+              </div>
+              <div class="row mt-3">
+                <div class="col-6 px-2">
+                  <a href="#" class="btn btn-light no-white-space text-left p-3 border" role="button">
+                    Some text in heto with some problem?
+                  </a>
+                </div>
+                <div class="col-6 px-2">
+                  <a href="#" class="btn btn-light no-white-space text-left p-3 border" role="button">
+                    Some text in heto with some problem?
+                  </a>
+                </div>
+              </div>
+              <div class="row mt-3">
+                <div class="col-6 px-2">
+                  <a href="#" class="btn btn-light no-white-space text-left p-3 border" role="button">
+                    Some text in heto with some problem?
+                  </a>
+                </div>
+                <div class="col-6 px-2">
+                  <a href="#" class="btn btn-light no-white-space text-left p-3 border" role="button">
+                    Some text in heto with some problem?
+                  </a>
+                </div>
+              </div>
+              <div class="row mt-3">
+                <div class="col-6 px-2">
+                  <a href="#" class="btn btn-light no-white-space text-left p-3 border" role="button">
+                    Some text in heto with some problem?
+                  </a>
+                </div>
+                <div class="col-6 px-2">
+                  <a href="#" class="btn btn-light no-white-space text-left p-3 border" role="button">
+                    Some text in heto with some problem?
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-4 pl-5"> <!-- col-topics -->
+              <h2 class="h3 mb-4">Selecione um tópico</h2>
+                <div class="accordion my-3" id="accordionExample"><!-- accordion-topics -->
+                
+                  <div class="card border-0"><!-- card-accordion -->
+                    <div id="headingOne"><!-- card-header -->
+                      <h5 class="mb-3">
+                        <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          <div class="d-inline-block">
+                            Consultar chamados
+                            <small class="d-block">Some text here of button</small>
+                          </div>
+                          <div class="d-inline-block ml-4">
+                            <span class="d-block mb-1"><i class="fas fa-2x fa-chart-bar"></i></span>
+                          </div>
+                        </button>
+                      </h5>
+                    </div>
+                
+                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample"><!-- card-body -->
+                      <div class="card-body">
+                        <div class="list-group list-group-flush">
+                          <a href="#" class="list-group-item list-group-item-action">Some sub topic</a>
+                          <a href="#" class="list-group-item list-group-item-action">Some sub topic</a>
+                          <a href="#" class="list-group-item list-group-item-action">Some sub topic</a>
+                        </div>
+                      </div>
+                    </div><!-- /.card-body -->
+                  </div><!-- /.card-accordion -->
+                  <!-- -------->
+                  <div class="card border-0"><!-- card-accordion -->
+                    <div id="headingTwo"><!-- card-header -->
+                      <h5 class="mb-3">
+                        <button class="btn btn-info collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          <div class="d-inline-block">
+                            Consultar chamados
+                            <small class="d-block">Some text here of button</small>
+                          </div>
+                          <div class="d-inline-block ml-4">
+                            <span class="d-block mb-1"><i class="fas fa-2x fa-chart-bar"></i></span>
+                          </div>
+                        </button>
+                      </h5>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                      <div class="card-body">
+                        <div class="list-group list-group-flush">
+                          <a href="#" class="list-group-item list-group-item-action">Some sub topic</a>
+                          <a href="#" class="list-group-item list-group-item-action">Some sub topic</a>
+                          <a href="#" class="list-group-item list-group-item-action">Some sub topic</a>
+                        </div>
+                      </div>
+                    </div><!-- /.card-body -->
+                  </div><!-- /.card-accordion -->
+                  <!-- -------->
+                  <div class="card border-0"><!-- card-accordion -->
+                    <div id="headingThree"><!-- card-header -->
+                      <h5 class="mb-3">
+                        <button class="btn btn-info collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          <div class="d-inline-block">
+                            Consultar chamados
+                            <small class="d-block">Some text here of button</small>
+                          </div>
+                          <div class="d-inline-block ml-4">
+                            <span class="d-block mb-1"><i class="fas fa-2x fa-chart-bar"></i></span>
+                          </div>
+                        </button>
+                      </h5>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample"><!-- /.card-body -->
+                      <div class="card-body">
+                        <div class="list-group list-group-flush">
+                          <a href="#" class="list-group-item list-group-item-action">Some sub topic</a>
+                          <a href="#" class="list-group-item list-group-item-action">Some sub topic</a>
+                          <a href="#" class="list-group-item list-group-item-action">Some sub topic</a>
+                        </div>
+                      </div>
+                    </div><!-- /.card-body -->
+                  </div><!-- /.card-accordion -->
+                  <!-- -------->
+                  <div class="card border-0"><!-- card-accordion -->
+                    <div id="headingFour"><!-- card-header -->
+                      <h5 class="mb-3">
+                        <button class="btn btn-info collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                          <div class="d-inline-block">
+                            Consultar chamados
+                            <small class="d-block">Some text here of button</small>
+                          </div>
+                          <div class="d-inline-block ml-4">
+                            <span class="d-block mb-1"><i class="fas fa-2x fa-chart-bar"></i></span>
+                          </div>
+                        </button>
+                      </h5>
+                    </div>
+                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample"><!-- /.card-body -->
+                      <div class="card-body">
+                        <div class="list-group list-group-flush">
+                          <a href="#" class="list-group-item list-group-item-action">Some sub topic</a>
+                          <a href="#" class="list-group-item list-group-item-action">Some sub topic</a>
+                          <a href="#" class="list-group-item list-group-item-action">Some sub topic</a>
+                        </div>
+                      </div>
+                    </div><!-- /.card-body -->
+                  </div><!-- /.card-accordion -->
+                  
+                </div><!-- /.accordion-topics -->
+            </div><!-- /.col-topics -->
+            <div class="col-3 group-chamados-btn">
+              <button type="button" class="btn btn-lg btn-block btn-info py-4 rounded-0">
+                <span class="d-block mb-1"><i class="fas fa-3x fa-chart-bar"></i></span>
+                Consultar chamados
+                <small class="d-block">Some text here of button</small>
+              </button>
+              <button type="button" class="btn btn-lg btn-block btn-info py-4 rounded-0 mt-2_3">
+                <span class="d-block mb-1"><i class="fas fa-3x fa-chart-bar"></i></span>
+                Abrir chamado
+                <small class="d-block">Some text here of button</small>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer border-top py-3">
+      <div class="container-fluid">
+        <div class="footer__logo-box d-inline-block mx-4">
+          <a class="navbar-brand mr-0" href="home-suporte.html">
+            <img src="https://getbootstrap.com/docs/4.1/assets/brand/bootstrap-solid.svg" width="30" height="30" alt="">
+            HelpOne
+          </a>
+        </div>
+        <p class="footer__text d-inline-block mb-0">
+          Copyright @ 2018 | DGP - QGEx - Bloco E - 3º Piso - SMU - CEP 70630-901 - Brasília-DF 
+        </p>
+      </div>
+    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
