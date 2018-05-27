@@ -1,0 +1,18 @@
+.section-hero {
+    .row {
+        height: 320px;
+    }
+    
+    .form-inline {
+        position: relative;
+      
+        i {
+            position: absolute;
+            left: 10px;
+        }
+        
+        .form-control {
+            padding-left: 35px;
+        }
+    }
+}

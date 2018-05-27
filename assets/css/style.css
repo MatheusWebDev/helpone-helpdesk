@@ -6282,13 +6282,21 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6; } }
 
-.user-level {
-  background: #343a40;
-  color: #f8f9fa;
-  text-align: center; }
-  .user-level .row {
-    height: 100vh; }
-  .user-level__login-link:focus {
-    box-shadow: none;
-    background-color: #0069d9;
-    border-color: #0062cc; }
+.section-hero .row {
+  height: 320px; }
+
+.section-hero .form-inline {
+  position: relative; }
+  .section-hero .form-inline i {
+    position: absolute;
+    left: 10px; }
+  .section-hero .form-inline .form-control {
+    padding-left: 35px; }
+
+.user-level .row {
+  height: 100vh; }
+
+.user-level__login-link:focus {
+  box-shadow: none;
+  background-color: #0069d9;
+  border-color: #0062cc; }
