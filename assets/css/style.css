@@ -6285,15 +6285,8 @@ a.text-dark:hover, a.text-dark:focus {
 .no-white-space {
   white-space: normal !important; }
 
-.mt-2_3 {
-  margin-top: 2.3rem !important; }
-
 .w-85 {
   width: 85% !important; }
-
-.py-6 {
-  padding-top: 6rem !important;
-  padding-bottom: 6rem !important; }
 
 .section-hero .row {
   height: 320px; }
@@ -6307,9 +6300,6 @@ a.text-dark:hover, a.text-dark:focus {
   .section-hero .form-inline .form-control {
     padding-left: 35px;
     border-radius: 20px; }
-
-.content .group-chamados-btn {
-  padding-top: 3.2rem; }
 
 .content .card-body {
   padding: 0 4rem 1rem 0;
