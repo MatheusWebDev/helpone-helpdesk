@@ -2,19 +2,19 @@
     .row {
         height: 320px;
     }
+}
+
+.form-inline {
+    position: relative;
+  
+    i {
+        position: absolute;
+        top: 11px;
+        left: 12px;
+    }
     
-    .form-inline {
-        position: relative;
-      
-        i {
-            position: absolute;
-            top: 11px;
-            left: 12px;
-        }
-        
-        .form-control {
-            padding-left: 35px;
-            border-radius: 20px;
-        }
+    .form-control {
+        padding-left: 35px;
+        border-radius: 20px;
     }
 }

@@ -6285,19 +6285,22 @@ a.text-dark:hover, a.text-dark:focus {
 .no-white-space {
   white-space: normal !important; }
 
+.no-breadcrumb-divider::before {
+  display: none !important; }
+
 .w-85 {
   width: 85% !important; }
 
 .section-hero .row {
   height: 320px; }
 
-.section-hero .form-inline {
+.form-inline {
   position: relative; }
-  .section-hero .form-inline i {
+  .form-inline i {
     position: absolute;
     top: 11px;
     left: 12px; }
-  .section-hero .form-inline .form-control {
+  .form-inline .form-control {
     padding-left: 35px;
     border-radius: 20px; }
 
@@ -6307,6 +6310,20 @@ a.text-dark:hover, a.text-dark:focus {
 
 .header .dropdown-toggle::after {
   vertical-align: 0.12em; }
+
+.header .breadcrumb-search .row {
+  min-height: 80px; }
+
+.header .breadcrumb-search .breadcrumb-box {
+  flex-grow: 3; }
+
+.header .breadcrumb-item + .breadcrumb-item::before {
+  color: #f8f9fa; }
+
+.breadcrumb-item + .breadcrumb-item::before {
+  display: inline-block;
+  padding-right: 0.5rem;
+  content: ">"; }
 
 .user-level .row {
   height: 100vh; }

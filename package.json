@@ -4,7 +4,9 @@
   "description": "HelpOne - Sistema de HelpDesk | Projeto Integrado Multidisciplinar III",
   "main": "index.html",
   "scripts": {
-    "compile:sass": "node-sass assets/sass/main.scss assets/css/style.css -w"
+    "watch:sass": "node-sass assets/sass/main.scss assets/css/style.css -w",
+    "devserver": "live-server",
+    "start": "npm-run-all --parallel devserver watch:sass"
   },
   "repository": {
     "type": "git",
@@ -23,6 +25,7 @@
   },
   "devDependencies": {
     "live-server": "^1.2.0",
-    "node-sass": "^4.9.0"
+    "node-sass": "^4.9.0",
+    "npm-run-all": "^4.1.3"
   }
 }

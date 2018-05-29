@@ -2,6 +2,10 @@
     white-space: normal !important;
 }
 
+.no-breadcrumb-divider::before {
+    display: none !important;
+}
+
 .w-85 {
     width: 85% !important;
 }

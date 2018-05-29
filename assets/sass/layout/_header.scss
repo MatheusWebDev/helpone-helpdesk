@@ -1,5 +1,25 @@
 .header {
- .dropdown-toggle::after {
+   .dropdown-toggle::after {
      vertical-align: 0.12em;
- }
+   }
+   
+   .breadcrumb-search {
+    .row {
+        min-height: 80px;
+    }
+    
+    .breadcrumb-box {
+       flex-grow: 3;
+    }
+   }
+   
+   .breadcrumb-item + .breadcrumb-item::before {
+       color: $gray-100;
+   }
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+    display: inline-block;
+    padding-right: 0.5rem;
+    content: $breadcrumb-divider;
 }
