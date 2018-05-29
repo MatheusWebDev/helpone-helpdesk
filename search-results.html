@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/solid.css" integrity="sha384-Rw5qeepMFvJVEZdSo1nDQD5B6wX0m7c5Z/pLNvjkB14W6Yki1hKbSEQaX9ffUbWe" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/fontawesome.css" integrity="sha384-GVa9GOgVQgOk+TNYXu7S/InPTfSDTtBalSgkgqQ7sCik56N9ztlkoTr2f/T44oKV" crossorigin="anonymous">
 
-    <title>HelpOne - Sistema de HelpDesk | Projeto Integrado Multidisciplinar III</title>
+    <title>Resultados da pesquisa | HelpOne - Sistema de HelpDesk</title>
   </head>
   <body>
       
@@ -55,96 +55,115 @@
           </div>
         </div>
       </nav>
-    </header>
-    
-    <main>
-      <section class="section-hero bg-secondary">
+      
+      <section class="breadcrumb-search bg-secondary"> <!-- breadcrumb-search -->
         <div class="container">
           <div class="row align-items-center justify-content-center">
-            <div class="col-3">
-              <button type="button" class="btn btn-lg btn-block btn-info py-4">
-                <span class="d-block mb-1"><i class="fas fa-3x fa-list"></i></span>
-                Consultar chamados
-                <small class="d-block">Some text here of button</small>
-              </button>
+            <div class="col-md-8 col-lg-9 mb-3 mb-md-0">
+              <nav class="breadcrumb-box" aria-label="breadcrumb">
+                <ol class="breadcrumb bg-transparent m-0 justify-content-center justify-content-md-start">
+                  <li class="breadcrumb-item"><a href="home-operador.html" class="text-warning">Home</a></li>
+                  <li class="breadcrumb-item active text-light" aria-current="page">Resultados da pesquisa</li>
+                </ol>
+              </nav>
             </div>
-            <div class="col-3">
-              <button type="button" class="btn btn-lg btn-block btn-info py-4">
-                <span class="d-block mb-1"><i class="fas fa-3x fa-file-alt"></i></span>
-                Gerenciar Artigos
-                <small class="d-block">Some text here of button</small>
-              </button>
-            </div>
-            <div class="col-3">
-              <button type="button" class="btn btn-lg btn-block btn-info py-4">
-                <span class="d-block mb-1"><i class="fas fa-3x fa-users"></i></span>
-                Gerenciar Equipe
-                <small class="d-block">Some text here of button</small>
-              </button>
-            </div>
-            <div class="col-3">
-              <button type="button" class="btn btn-lg btn-block btn-info py-4">
-                <span class="d-block mb-1"><i class="fas fa-3x fa-chart-bar"></i></span>
-                Exibir Relatórios
-                <small class="d-block">Some text here of button</small>
-              </button>
+            <div class="col-10 col-sm-8 col-md-4 col-lg-3 order-first order-md-1 mt-3 mt-md-0">
+              <div class="search-form text-center">
+                <form action="search-results.html" class="form-inline my-2 my-lg-0">
+                  <i class="fas fa-search"></i><input class="form-control mr-sm-2 py-1 w-100" type="search" placeholder="Search" aria-label="Search">
+                </form>
+              </div>
             </div>
           </div>
         </div>
-      </section>
-      
+      </section> <!-- /. breadcrumb and search-->
+    </header><!-- /. header -->
+    
+    <main>
       <section class="content">
         <div class="container">
           <div class="row py-5">
-            <div class="col-sm-6 col-lg-5 mb-5 text-center text-sm-left">
-              <h2 class="h3 mb-2">Soluções Frequentes</h2>
-              <div class="row mt-3">
-                <div class="col-md-6 p-2">
-                  <a href="artigo-page.html" class="btn btn-light no-white-space text-left p-3 border" role="button">
-                    Some text in heto with some problem?
+            <div class="col-md-7 col-lg-8 mb-5 text-center text-sm-left">
+              <h2 class="mb-2">Resultados da pesquisa</h2>
+              <p class="h5 mb-2">21 resultados para "lorem ipsum"</p>
+              <h3 class="h4 mb-2 mt-4">Base de Conhecimento</h3>
+              <div class="group-artigos-found"> <!-- group-artigo-foud -->
+                <hr>
+                <div class="artigo-found my-3"> <!-- artigo-foud -->
+                  <a class="text-info" href="artigo-page.html">
+                    <h4 class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit?</h4>
                   </a>
-                </div>
-                <div class="col-md-6 p-2">
-                  <a href="artigo-page.html" class="btn btn-light no-white-space text-left p-3 border" role="button">
-                    Some text in heto with some problem?
+                  <ol class="breadcrumb bg-transparent m-0 px-0">
+                    <li class="breadcrumb-item"><a class="text-info" href="topic-results.html">Tópico</a></li>
+                    <li class="breadcrumb-item"><a class="text-info" href="topic-results.html">Subtópico</a></li>
+                    <li class="breadcrumb-item no-breadcrumb-divider"> &#183; Criado em 00/00/2018</li>
+                  </ol>
+                  <p class="mb-1">....autem eaque, deleniti odit aliquam eum voluptas. Asperiores iusto eos architecto qui aut, consectetur porro. Asperiores iusto eos architecto qui aut, consectetur porro...</p>
+                  <a href="artigo-page.html" class="btn btn-link text-info px-0">Leia Mais</a>
+                </div> <!-- /. artigo-foud -->
+                <hr>
+                <div class="artigo-found my-3"> <!-- artigo-foud -->
+                  <a class="text-info" href="artigo-page.html">
+                    <h4 class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit?</h4>
                   </a>
-                </div>
-                <div class="col-md-6 p-2">
-                  <a href="artigo-page.html" class="btn btn-light no-white-space text-left p-3 border" role="button">
-                    Some text in heto with some problem?
+                  <ol class="breadcrumb bg-transparent m-0 px-0">
+                    <li class="breadcrumb-item"><a class="text-info" href="topic-results.html">Tópico</a></li>
+                    <li class="breadcrumb-item"><a class="text-info" href="topic-results.html">Subtópico</a></li>
+                    <li class="breadcrumb-item no-breadcrumb-divider"> &#183; Criado em 00/00/2018</li>
+                  </ol>
+                  <p class="mb-1">....autem eaque, deleniti odit aliquam eum voluptas. Asperiores iusto eos architecto qui aut, consectetur porro. Asperiores iusto eos architecto qui aut, consectetur porro...</p>
+                  <a href="artigo-page.html" class="btn btn-link text-info px-0">Leia Mais</a>
+                </div> <!-- /. artigo-foud -->
+                <hr>
+                <div class="artigo-found my-3"> <!-- artigo-foud -->
+                  <a class="text-info" href="artigo-page.html">
+                    <h4 class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit?</h4>
                   </a>
+                  <ol class="breadcrumb bg-transparent m-0 px-0">
+                    <li class="breadcrumb-item"><a class="text-info" href="topic-results.html">Tópico</a></li>
+                    <li class="breadcrumb-item"><a class="text-info" href="topic-results.html">Subtópico</a></li>
+                    <li class="breadcrumb-item no-breadcrumb-divider"> &#183; Criado em 00/00/2018</li>
+                  </ol>
+                  <p class="mb-1">....autem eaque, deleniti odit aliquam eum voluptas. Asperiores iusto eos architecto qui aut, consectetur porro. Asperiores iusto eos architecto qui aut, consectetur porro...</p>
+                  <a href="artigo-page.html" class="btn btn-link text-info px-0">Leia Mais</a>
+                </div> <!-- /. artigo-foud -->
+                <hr>
+              </div><!-- /. group-artigo-foud -->
+              <nav aria-label="Page navigation">
+                <ul class="pagination justify-content-center mt-5">
+                  <li class="page-item">
+                    <a class="page-link text-info" href="#" aria-label="Previous">
+                      <span aria-hidden="true">&laquo;</span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                  </li>
+                  <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                  <li class="page-item"><a class="page-link text-info" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link text-info" href="#">3</a></li>
+                  <li class="page-item">
+                    <a class="page-link text-info" href="#" aria-label="Next">
+                      <span aria-hidden="true">&raquo;</span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </li>
+                </ul>
+              </nav> <!-- /. artigo-paginacao -->
+            </div><!-- /.col-artigos-results -->
+            
+            <aside class="col-md-5 col-lg-4 pl-md-5 pt-2 text-center text-sm-left"> <!-- sidebar -->
+              <div class="artigos-relacionados mb-5">
+                <h2 class="h3 mb-3">Artigos relacionados</h2>
+                <div class="list-group list-group-flush">
+                  <a href="artigo-page.html" class="list-group-item list-group-item-action">Is artigo title</a>
+                  <a href="artigo-page.html" class="list-group-item list-group-item-action">Some artigo title here</a>
+                  <a href="artigo-page.html" class="list-group-item list-group-item-action">This artigo title in home</a>
+                  <a href="artigo-page.html" class="list-group-item list-group-item-action">Some artigo title</a>
+                  <a href="artigo-page.html" class="list-group-item list-group-item-action">One artigo title there</a>
                 </div>
-                <div class="col-md-6 p-2">
-                  <a href="artigo-page.html" class="btn btn-light no-white-space text-left p-3 border" role="button">
-                    Some text in heto with some problem?
-                  </a>
-                </div>
-              </div>
-              <div class="row d-none d-md-flex">
-                <div class="col-6 p-2">
-                  <a href="artigo-page.html" class="btn btn-light no-white-space text-left p-3 border" role="button">
-                    Some text in heto with some problem?
-                  </a>
-                </div>
-                <div class="col-6 p-2">
-                  <a href="artigo-page.html" class="btn btn-light no-white-space text-left p-3 border" role="button">
-                    Some text in heto with some problem?
-                  </a>
-                </div>
-                <div class="col-6 p-2">
-                  <a href="artigo-page.html" class="btn btn-light no-white-space text-left p-3 border" role="button">
-                    Some text in heto with some problem?
-                  </a>
-                </div>
-                <div class="col-6 p-2">
-                  <a href="artigo-page.html" class="btn btn-light no-white-space text-left p-3 border" role="button">
-                    Some text in heto with some problem?
-                  </a>
-                </div>
-              </div>
-            </div><!-- /.col-soluctions -->
-            <div class="col-sm-6 col-lg-4 pl-md-5 text-center text-sm-left"> <!-- col-topics -->
-              <h2 class="h3 mb-3">Selecione um tópico</h2>
+              </div><!-- /. artigos-relacionados -->
+              <!-- -------------- -->
+              <div class="tipocos-base-conhecimento">
+                <h2 class="h3 mb-3">Selecione um tópico</h2>
                 <div class="accordion my-3 pt-2" id="accordionExample"><!-- accordion-topics -->
                 
                   <div class="card border-0"><!-- card-accordion -->
@@ -249,25 +268,8 @@
                   </div><!-- /.card-accordion -->
                   
                 </div><!-- /.accordion-topics -->
-            </div><!-- /.col-topics -->
-            <div class="col-lg-3 pt-4 pt-sm-0 pt-lg-5">
-              <div class="row">
-                <div class="col-sm-6 col-lg-12">
-                  <button type="button" class="btn btn-lg btn-block btn-info py-4 rounded-0">
-                    <span class="d-block mb-1"><i class="fas fa-3x fa-chart-bar"></i></span>
-                    Consultar chamados
-                    <small class="d-block">Some text here of button</small>
-                  </button>
-                </div>
-                <div class="col-sm-6 col-lg-12">
-                  <button type="button" class="btn btn-lg btn-block btn-info py-4 rounded-0 mt-5 mt-sm-0 mt-lg-5">
-                    <span class="d-block mb-1"><i class="fas fa-3x fa-chart-bar"></i></span>
-                    Abrir chamado
-                    <small class="d-block">Some text here of button</small>
-                  </button>
-                </div>
-              </div>
-            </div><!-- /.col-btns -->
+              </div><!-- /. tipocos-base-conhecimento -->
+            </aside><!-- /. sidebar -->
           </div>
         </div>
       </section>
