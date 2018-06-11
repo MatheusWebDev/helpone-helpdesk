@@ -1,19 +1,33 @@
-// COLORS
+// ============================================
+// COLORS VARIABLES
 
 $gray-dark: $gray-800;
 $white: $gray-100;
 
 $breadcrumb-divider: quote(">");
 
+// ============================================
 // UTITLITIES
+
 .no-white-space {
-    white-space: normal !important;
+   white-space: normal !important;
 }
 
 .no-breadcrumb-divider::before {
-    display: none !important;
+   display: none !important;
 }
 
 .w-85 {
-    width: 85% !important;
+   width: 85% !important;
+}
+
+// ============================================
+// CHANGING BOOTSTRAP CLASSES
+.btn {
+   &:focus,
+   &:active {
+      box-shadow: none !important;
+      background-color: #117a8b;
+      border-color: #10707f;
+   }
 }

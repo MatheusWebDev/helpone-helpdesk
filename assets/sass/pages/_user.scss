@@ -1,10 +1,13 @@
+// ============================================
+// FICTIVE LOGIN PAGE (ILUSTRAR LOGIN)
 .user-level {
     .row {
         height: 100vh;
     }
     
     &__login-link {
-        &:focus {
+        &:focus,
+        &:active {
             box-shadow: none;
             background-color: #0069d9;
             border-color: #0062cc;

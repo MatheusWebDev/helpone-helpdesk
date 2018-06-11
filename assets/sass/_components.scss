@@ -1,27 +1,41 @@
-.content {
-    .card-body {
-        padding: 0 4rem 1rem 0;
-        margin-top: -1rem;
-    }
-}
-
+// ============================================
+// SECTION HERO
 .section-hero {
-    .row {
-        height: 320px;
-    }
+	.row {
+		height: 320px;
+	}
 }
 
 .form-inline {
-    position: relative;
-  
-    i {
-        position: absolute;
-        top: 11px;
-        left: 12px;
-    }
-    
-    .form-control {
-        padding-left: 35px;
-        border-radius: 20px;
-    }
+	position: relative;
+
+	i {
+		position: absolute;
+		top: 11px;
+		left: 12px;
+	}
+
+	.form-control {
+		padding-left: 35px;
+		border-radius: 20px;
+	}
 }
+// ============================================
+// SECTION CONTENT >> TOPICS
+.accordion {
+	.card-body {
+		padding: 0 0 1rem 0;
+		margin-top: -1rem;
+		@include media-breakpoint-up(md) {
+			padding: 0 4rem 1rem .2rem;
+		}
+		@include media-breakpoint-up(lg) {
+			padding: 0 2rem 1rem .2rem;
+		}
+		@include media-breakpoint-up(xl) {
+			padding: 0 5rem 1rem .2rem;
+		}
+	}
+}
+// ============================================
+// CADASTRAR CHAMADO
