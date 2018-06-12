@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.10/summernote-bs4.css" type="text/css" />
 
 
-    <title>Cadastrar Chamado | HelpOne - Sistema de HelpDesk</title>
+    <title>Titulo do chamado aqui | HelpOne - Sistema de HelpDesk</title>
   </head>
   <body>
       
@@ -66,7 +66,8 @@
               <nav class="breadcrumb-box" aria-label="breadcrumb">
                 <ol class="breadcrumb bg-transparent m-0 justify-content-center justify-content-md-start">
                   <li class="breadcrumb-item"><a href="home-operador.html" class="text-warning">Home</a></li>
-                  <li class="breadcrumb-item active text-light" aria-current="page">Cadastrar Chamado</li>
+                  <li class="breadcrumb-item"><a href="consult-chamado.html" class="text-warning">Consultar Chamados</a></li>
+                  <li class="breadcrumb-item active text-light" aria-current="page">#564</li>
                 </ol>
               </nav>
             </div>
@@ -87,59 +88,46 @@
         <div class="container">
           <div class="row py-5">
             <div class="col-12 text-center text-sm-left">
-              <h2 class="mb-4">Cadastrar chamado</h2>
-              <hr class="mb-5">
-            </div><!-- ./ content-header -->
-            <div class="col-md-7 col-lg-8 mb-5 text-center text-sm-left">
-              <form action="consult-chamado.html">
-                <div class="form-group">
-                  <label for="exampleFormControlSelect1">Em que podemos ajudar?</label>
-                  <select class="form-control" id="exampleFormControlSelect1">
-                    <option>Tópico 1</option>
-                    <option>Tópico 2</option>
-                    <option>Tópico 3</option>
-                    <option>Tópico 4</option>
-                    <option>Tópico 5</option>
-                  </select>
+              <h2 class="mb-2 border-bottom pb-3">#564 - Titulo do chamado aqui</h2>
+              <ol class="breadcrumb bg-transparent m-0 px-0">
+                <li class="breadcrumb-item">Tópico</li>
+                <li class="breadcrumb-item">Subtópico</li>
+                <li class="breadcrumb-item no-breadcrumb-divider"> - Aguardando Resposta</li>
+              </ol>
+              <h4 class="h5 my-3">Acompanhamento do chamado</h4>
+              <div class="chamado-box d-flex py-4"><!-- Chamado BOX -->
+                <div class="user-profile-box text-center mr-3 px-2">
+                  <span class="d-block">
+                    <img class="rounded-circle" src="assets/images/user-circle.png" height="80" alt="Matheus Fernandes">
+                  </span>
+                  <span class="d-block">
+                    <strong>User Name</strong>
+                  </span>
                 </div>
-                <div class="form-group">
-                  <label for="exampleFormControlSelect1">Qual problema está tendo com o &lt;topico selecionado&gt;?</label>
-                  <select class="form-control" id="exampleFormControlSelect1">
-                    <option>Subtópico 1</option>
-                    <option>Subtópico 2</option>
-                    <option>Subtópico 3</option>
-                    <option>Subtópico 4</option>
-                    <option>Subtópico 5</option>
-                  </select>
+                <div class="chamado-content flex-grow-1 text-right">
+                  <button type="button" class="btn btn-info mb-2 mr-2"><i class="fas fa-times mr-1"></i> Cancelar chamado</button>
+                  <button type="button" class="btn btn-info mb-2"><i class="fas fa-edit mr-1"></i> Editar chamado</button>
+                  <div class="content-chamado d-flex justify-content-between text-left px-4 py-3 border">
+                    <div class="text-content p-1 mr-4">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam commodi aperiam incidunt dolore totam facilis. Maiores consequatur repellat dicta quisquam tempore sapiente vero ipsam. Blanditiis perspiciatis aliquam quibusdam nesciunt suscipit!
+                      </p>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit autem dolor eaque dolore ipsam eum ad placeat assumenda iusto, eveniet facilis voluptate delectus. Amet cum delectus quod voluptatem exercitationem a!
+                      </p>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam commodi aperiam incidunt dolore totam facilis. Maiores consequatur repellat dicta quisquam tempore sapiente vero ipsam. Blanditiis perspiciatis aliquam quibusdam nesciunt suscipit!
+                      </p>
+                    </div>
+                    <div class="anexos-content">
+                      <p class="h6 mb-1"><strong>Anexos</strong></p>
+                      <img class="my-3 img-fluid" src="http://via.placeholder.com/70x85" alt="image placeholder">
+                      <img class="img-fluid" src="http://via.placeholder.com/70x85" alt="image placeholder">
+                    </div>
+                  </div>
                 </div>
-                <div class="form-group">
-                  <label for="exampleFormControlInput1">Título do chamado</label>
-                  <input type="text" class="form-control" id="exampleFormControlInput1">
-                </div>
-                <div class="form-group">
-                  <label for="exampleFormControlTextarea1">Descrição do chamado</label>
-                  <textarea class="form-control" id="summernote" name="editordata"></textarea>
-                </div>
-                <div class="form-group">
-                  <label for="exampleFormControlFile1">Anexos</label>
-                  <input type="file" class="form-control-file" id="anexos-files" name="anexos-files" multiple>
-                </div>
-                <button type="submit" class="btn btn-primary btn-info btn-lg mt-4">Cadastrar chamado</button>
-              </form>
-            </div><!-- ./ content-body -->
-            
-            <aside class="col-md-5 col-lg-4 pl-md-5 pt-2 text-center text-sm-left">
-              <div class="artigos-relacionados mb-5"><!-- artigos-relacionados -->
-                <h2 class="h3 mb-3">Isso pode ajudar?</h2>
-                <div class="list-group list-group-flush">
-                  <a href="artigo-page.html" class="list-group-item list-group-item-action">Is artigo title</a>
-                  <a href="artigo-page.html" class="list-group-item list-group-item-action">Some artigo title here</a>
-                  <a href="artigo-page.html" class="list-group-item list-group-item-action">This artigo title in home</a>
-                  <a href="artigo-page.html" class="list-group-item list-group-item-action">Some artigo title</a>
-                  <a href="artigo-page.html" class="list-group-item list-group-item-action">One artigo title there</a>
-                </div>
-              </div><!-- /. artigos-relacionados -->
-            </aside><!-- ./ sidebar -->
+              </div><!-- /. Chamado BOX -->
+            </div>
           </div>
         </div>
       </section>

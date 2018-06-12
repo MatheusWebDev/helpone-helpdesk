@@ -6322,6 +6322,17 @@ a.text-dark:hover, a.text-dark:focus {
     .accordion .card-body {
       padding: 0 5rem 1rem .2rem; } }
 
+.filtro a.filtro__link:hover,
+.filtro a.filtro__link:active,
+.filtro a.filtro__link:focus {
+  color: var(--info) !important; }
+
+.user-profile-box {
+  width: 12%; }
+
+.chamado-content {
+  margin-top: -45px; }
+
 .header .dropdown-toggle::after {
   vertical-align: 0.12em; }
 

@@ -37,5 +37,21 @@
 		}
 	}
 }
+
 // ============================================
-// CADASTRAR CHAMADO
+// CONSULTAR CHAMADO
+.filtro a.filtro__link:hover,
+.filtro a.filtro__link:active,
+.filtro a.filtro__link:focus {
+	color: var(--info) !important;
+}
+
+// ============================================
+// VIEW CHAMADO
+.user-profile-box {
+	width: 12%;
+}
+
+.chamado-content {
+    margin-top: -45px;
+}
